@@ -20,13 +20,13 @@ namespace Qlks
         CauLenh cl = new CauLenh();
         DataTable dt = new DataTable();
         public static int makh;
-        //hiển thị danh sách hóa đơn
+        //hiển thị lại danh sách hóa đơn
         private void inhoadon_Load(object sender, EventArgs e)
         {
 
             this.reportViewer1.RefreshReport();
         }
-
+        //hiển thị danh sách hóa đơn lên datagrid view
         private void reportViewer1_Load(object sender, EventArgs e)
         {
             dt = cl.taoreport(makh);
