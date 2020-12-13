@@ -36,6 +36,7 @@ namespace Qlks
             ReportDataSource newDataSource = new ReportDataSource("ds",dt);
             reportViewer1.LocalReport.DataSources.Add(newDataSource);
             reportViewer1.RefreshReport();
+            MessageBox.Show("Tải thành công");
         }
     }
 }
