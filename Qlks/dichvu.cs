@@ -34,7 +34,8 @@ namespace Qlks
 
         private void bt_them_Click(object sender, EventArgs e)
         {
-           
+            //duy change this
+           bt_them.BackColor=Color.Red;
         }
 
         private void bt_sua_Click(object sender, EventArgs e)
